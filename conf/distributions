@@ -1,0 +1,8 @@
+Origin: Schmidt Embedded Systems
+Label: AI Mux
+Codename: stable
+Suite: stable
+Architectures: amd64
+Components: main
+Description: AI Mux Debian packages
+SignWith: F862D3D08B984F8F992B253323902D632AAB14C6

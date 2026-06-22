@@ -1,0 +1,6 @@
+Archive: stable
+Component: main
+Origin: Schmidt Embedded Systems
+Label: AI Mux
+Architecture: amd64
+Description: AI Mux Debian packages
