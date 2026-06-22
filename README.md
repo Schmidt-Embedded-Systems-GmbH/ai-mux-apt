@@ -25,5 +25,5 @@ sudo apt install ai-mux
 ## Signing Key
 
 ```text
-F891 496B 3031 7498 8AC0 32E7 C216 B3E7 7C7C 43F0
+F862 D3D0 8B98 4F8F 992B 2533 2390 2D63 2AAB 14C6
 ```
