@@ -1,19 +1,19 @@
 Package: ai-mux
-Version: 0.0.7
+Version: 0.0.8
 Architecture: amd64
 Depends: libgtk-3-0, libnotify4, libnss3, xdg-utils, libatspi2.0-0, libdrm2, libgbm1, libxcb-dri3-0, kde-cli-tools | kde-runtime | trash-cli | libglib2.0-bin | gvfs-bin
 Recommends: pulseaudio | libasound2
 Suggests: gir1.2-gnomekeyring-1.0, libgnome-keyring0, lsb-release
-Installed-Size: 380611
+Installed-Size: 380650
 Maintainer: Jan Hindges <jan.hindges@schmidt-embedded-systems.de>, Paul Wilcke <paul.wilcke@schmidt-embedded-systems.de>
 Homepage: https://schmidt-embedded-systems-gmbh.github.io/ai-mux-apt/
 Priority: optional
 Section: devel
-Filename: pool/main/a/ai-mux/ai-mux_0.0.7_amd64.deb
-Size: 103349184
-SHA256: 8ac63ea903d1bddee52938e1ac3754fbc6d65232a9b02f386f3a3934b7227dcb
-SHA1: c1918eb18022f1ea775c1c2ad11bbf218f1ed558
-MD5sum: fb1bc73c0ebb785ad501cd446ebc0515
+Filename: pool/main/a/ai-mux/ai-mux_0.0.8_amd64.deb
+Size: 103351056
+SHA256: bafaacf905024f33159d5a7aedae5be29b3738c9a04eb6387f2a7568009bde98
+SHA1: f72b3841a680d13a5f617e17397ae6b94942c972
+MD5sum: 331c83504a47e21f21d75ec1ac53dbd4
 Description: Local workspace terminal multiplexer.
  Local workspace terminal multiplexer.
 
