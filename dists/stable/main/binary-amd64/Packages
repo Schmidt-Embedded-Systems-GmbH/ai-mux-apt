@@ -1,19 +1,19 @@
 Package: ai-mux
-Version: 0.0.11
+Version: 0.0.12
 Architecture: amd64
 Depends: libgtk-3-0, libnotify4, libnss3, xdg-utils, libatspi2.0-0, libdrm2, libgbm1, libxcb-dri3-0, kde-cli-tools | kde-runtime | trash-cli | libglib2.0-bin | gvfs-bin
 Recommends: pulseaudio | libasound2
 Suggests: gir1.2-gnomekeyring-1.0, libgnome-keyring0, lsb-release
-Installed-Size: 380849
+Installed-Size: 380898
 Maintainer: Jan Hindges <jan.hindges@schmidt-embedded-systems.de>, Paul Wilcke <paul.wilcke@schmidt-embedded-systems.de>
 Homepage: https://schmidt-embedded-systems-gmbh.github.io/ai-mux-apt/
 Priority: optional
 Section: devel
-Filename: pool/main/a/ai-mux/ai-mux_0.0.11_amd64.deb
-Size: 103398930
-SHA256: 179773c9b90824d1c70e9fd6d9e97970a1441e97daead89aac0d35fde22a0363
-SHA1: ac79c453c1df54d051d63704fecae3d5de3a7103
-MD5sum: 4fd30c247033b0d8d0b722f39a1b5d6d
+Filename: pool/main/a/ai-mux/ai-mux_0.0.12_amd64.deb
+Size: 103403948
+SHA256: 567e9f31eb142e5f7bc191edc725bda7b9f2c4d8ba2702afe0b63459b51f87e4
+SHA1: 0003681cb86a94729209b4dbcaa2715e8af32c03
+MD5sum: 07093362fb1221af26f7e3b919d4eaf7
 Description: Local workspace terminal multiplexer.
  Local workspace terminal multiplexer.
 
