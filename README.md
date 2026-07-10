@@ -22,6 +22,26 @@ sudo apt update
 sudo apt install ai-mux
 ```
 
+## Nightly Builds
+
+A nightly build of the latest `main` is published to this repository as the
+separate package `ai-mux-nightly`. It uses the same sources entry as the
+stable package — after completing the install steps above, run:
+
+```sh
+sudo apt install ai-mux-nightly
+```
+
+Notes:
+
+- `ai-mux-nightly` installs alongside `ai-mux`; you can keep both. It ships its
+  own binary (`ai-mux-nightly`) and desktop entry, and stores its settings
+  separately (`~/.config/ai-mux-nightly`).
+- Nightly versions look like `0.0.14+nightly.<timestamp>.<commit>` and update
+  via regular `sudo apt upgrade` whenever `main` has new commits.
+- Nightlies are built straight from `main` without the manual release checks a
+  stable release gets — expect occasional rough edges.
+
 ## Signing Key
 
 ```text
