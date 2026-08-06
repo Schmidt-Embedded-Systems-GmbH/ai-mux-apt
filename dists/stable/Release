@@ -2,19 +2,19 @@ Origin: Schmidt Embedded Systems
 Label: AI Mux
 Suite: stable
 Codename: stable
-Date: Thu, 06 Aug 2026 14:29:49 UTC
+Date: Thu, 13 Aug 2026 03:26:35 UTC
 Architectures: amd64
 Components: main
 Description: AI Mux Debian packages
 MD5Sum:
- 01f233c67d94ecd3f5ed9783b71d27fa 1904 main/binary-amd64/Packages
- bbcc99894fb42a02ff2c773aa1110994 750 main/binary-amd64/Packages.gz
+ 96caed6969a6e48c87c0513b8deaee73 1904 main/binary-amd64/Packages
+ 8b0d31502b6874cf7d15218c4f796126 759 main/binary-amd64/Packages.gz
  a0ca8d1ea9f3bae6d6cb78feeaba9b35 135 main/binary-amd64/Release
 SHA1:
- bbb07cea47e79a185fe2a0f1e4aed521dd57c4b5 1904 main/binary-amd64/Packages
- 16f50a016c14472a7f54c74497211dd93cbac9a0 750 main/binary-amd64/Packages.gz
+ ced37434ae9c6788b902d870bdf4b983cd210236 1904 main/binary-amd64/Packages
+ 48a5c9c2c8fe099a406caa46beeb4f03a7708739 759 main/binary-amd64/Packages.gz
  2e97fa88ca367de7a6c7c5b4c07bb1dd61bc57db 135 main/binary-amd64/Release
 SHA256:
- 7b140edbc0c85b793f977978cd271b36ec725872bdbdfff8af30b15e87cf7563 1904 main/binary-amd64/Packages
- e921704831c3be21cd449ae3d4dc063c89802e6e11e788d33e142b218b865df8 750 main/binary-amd64/Packages.gz
+ f3a4d398160a87e1a56d661c975e334df2c72eeba5dbd6cde76e407368372529 1904 main/binary-amd64/Packages
+ d19f38b35a44337a0aa2fe01ed5d40d542d1da7598da1f4c35261a4085d963c2 759 main/binary-amd64/Packages.gz
  87484263c7c16b08927919fe68b7837ef490452b9b90dded54e164a763013ba2 135 main/binary-amd64/Release
