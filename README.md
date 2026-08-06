@@ -6,12 +6,12 @@ Public Debian apt repository for AI Mux.
 
 ```sh
 sudo install -d -m 0755 /etc/apt/keyrings
-curl -fsSL https://schmidt-embedded-systems-gmbh.github.io/ai-mux-apt/ai-mux.asc \
+curl -fsSL https://raw.githubusercontent.com/Schmidt-Embedded-Systems-GmbH/ai-mux-apt/main/ai-mux.asc \
   | sudo tee /etc/apt/keyrings/ai-mux.asc >/dev/null
 
 sudo tee /etc/apt/sources.list.d/ai-mux.sources >/dev/null <<'EOF'
 Types: deb
-URIs: https://schmidt-embedded-systems-gmbh.github.io/ai-mux-apt/
+URIs: https://raw.githubusercontent.com/Schmidt-Embedded-Systems-GmbH/ai-mux-apt/main
 Suites: stable
 Components: main
 Architectures: amd64
@@ -20,6 +20,16 @@ EOF
 
 sudo apt update
 sudo apt install ai-mux
+```
+
+If an existing installation still uses the former GitHub Pages URL, update its
+source before the next upgrade:
+
+```sh
+sudo sed -i \
+  's#https://schmidt-embedded-systems-gmbh.github.io/ai-mux-apt/#https://raw.githubusercontent.com/Schmidt-Embedded-Systems-GmbH/ai-mux-apt/main#' \
+  /etc/apt/sources.list.d/ai-mux.sources
+sudo apt update
 ```
 
 ## Nightly Builds
