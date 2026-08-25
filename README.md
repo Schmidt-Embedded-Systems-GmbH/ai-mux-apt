@@ -1,6 +1,7 @@
-# AI Mux Apt Repository
+# AI Mux APT repository
 
-Public Debian apt repository for AI Mux.
+Public Debian APT repository for [AI Mux](https://www.schmidt-embedded-systems.de/ai/blog/ai-mux-coding-agent-cockpit/).
+It publishes stable and nightly packages for `amd64`.
 
 ## Install
 
