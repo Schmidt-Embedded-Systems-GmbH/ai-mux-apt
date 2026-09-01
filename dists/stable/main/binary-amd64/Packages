@@ -18,7 +18,7 @@ Description: Local workspace terminal multiplexer.
  Local workspace terminal multiplexer.
 
 Package: ai-mux-nightly
-Version: 0.0.17+nightly.202608130324.5c94f2cd9
+Version: 0.0.17+nightly.202609010247.08b51cc29
 Architecture: amd64
 Depends: libgtk-3-0, libnotify4, libnss3, xdg-utils, libatspi2.0-0, libdrm2, libgbm1, libxcb-dri3-0, kde-cli-tools | kde-runtime | trash-cli | libglib2.0-bin | gvfs-bin
 Recommends: pulseaudio | libasound2
@@ -28,11 +28,11 @@ Maintainer: Jan Hindges <jan.hindges@schmidt-embedded-systems.de>, Paul Wilcke <
 Homepage: https://github.com/Schmidt-Embedded-Systems-GmbH/ai-mux-apt
 Priority: optional
 Section: devel
-Filename: pool/main/a/ai-mux-nightly/ai-mux-nightly_0.0.17+nightly.202608130324.5c94f2cd9_amd64.deb
-Size: 91371312
-SHA256: a2f3747243e7d0d6c021be2a6fa501e632f3a59c0a4fe01a5be558f636fde666
-SHA1: 8221613ec196482872c0fa8c265439825f4e6f52
-MD5sum: a454f71fbd92a62c8bdf1323fb35c724
+Filename: pool/main/a/ai-mux-nightly/ai-mux-nightly_0.0.17+nightly.202609010247.08b51cc29_amd64.deb
+Size: 91368444
+SHA256: 8ba8b30b57eb4d645daff9fb650333a6ae7e84761b6135e91fd998409c05862b
+SHA1: 15ebc2e9bc6b29126210cb86d8858d7d4444d7e3
+MD5sum: 900d282f6cbb3232b2922bf4c8316722
 Description: Local workspace terminal multiplexer. (nightly channel)
  Local workspace terminal multiplexer. (nightly channel)
 
